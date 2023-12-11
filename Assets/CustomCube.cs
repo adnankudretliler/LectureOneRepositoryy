@@ -18,6 +18,8 @@ public class CustomCube : MonoBehaviour
     
     private void Awake()
     {
+        
+        Debug.Log(TestClassInstance.TestNumber);
         Debug.Log(TestClassInstance.Test);
     }
 
